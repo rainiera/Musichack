@@ -1,4 +1,4 @@
-package com.example.musichack.musichack;
+package com.example.musichack;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

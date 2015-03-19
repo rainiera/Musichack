@@ -5,8 +5,8 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.example.musichack.musichack"
-        minSdkVersion 15
+        applicationId "com.example.musichack"
+        minSdkVersion 8
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -22,5 +22,4 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.0.0'
-    compile files('libs/microsoft-band-1.3.10215.1.jar')
 }
